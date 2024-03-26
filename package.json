@@ -1,0 +1,34 @@
+{
+  "name": "quitemporibus",
+  "version": "1.0.0",
+  "description": "xliff2js and js2xliff converter xliff utils",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "xml-js": "1.6.9"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^5.0.5"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && mocha test/**"
+  },
+  "keywords": [
+    "quod",
+    "nulla",
+    "laboriosam",
+    "translation"
+  ],
+  "author": "JerelCruickshank",
+  "license": "MIT",
+  "homepage": "https://github.com/KendraPfeffer/quitemporibus.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KendraPfeffer/quitemporibus.git"
+  }
+}
